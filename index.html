@@ -1,152 +1,676 @@
-<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FOOD MENU</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/bb12a5dc52.js" crossorigin="anonymous"></script>
-  <style>
-    .items{
-      margin-top: 10px;
-    
-
-    }
-    .items li{
-      list-style-type: none;
-      padding: 6px 10px;
-      text-align: center;
-      color: black;
-      text-transform:uppercase;
-
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+    <title>Tinder | Dating, make friends & meet new people</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/bb12a5dc52.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div style="text-align: center;height: 20vh;" class="container-fluid bg-dark text-white">
-    <h1 style="font-size: 50px;font-family: 'Cinzel', serif; padding-top: 10px; ">MadeTasty</h1>
-    <h5 style="font-family: 'Montserrat', sans-serif;color: gold; ">DELICIOUS & HEALTHY</h5>
-  </div>
-  <div style="height: auto;" class="container-fluid bg-warning">
-    <button type="button" class="btn btn-outline-dark m-3">Home</button>
-    <button type="button" class="btn btn-outline-dark m-2">About</button>
-    <button type="button" class="btn btn-outline-dark m-2">Service</button>
-    <button type="button" class="btn btn-success m-2">Orders</button>
-    <button type="button" class="btn btn-danger m-2">Cancel Orders</button> <br> <br>
-    <div style="height: 50px;" class="progress">
-      <div style="width: 100%; " class="progress-bar bg-dark ">
-        <span style="font-size: 20px;font-family: 'Montserrat', sans-serif;">MENU</span>
-      </div>
-    </div> <br>
-    
-    <div class="row">
-      <div class="col-sm-6">
-        <div style="width: 100%;height: 30px;" class="progress">
-          <div style="width: 100%;" class="progress-bar text-white-50 bg-dark">
-            <span style="font-size: 18px;font-family: 'Montserrat', sans-serif;">STARTERS</span>
-            
-          </div>
-          
+    <!-- <body style="background-image: linear-gradient(#662D8C ,#ED1E79);" > -->
+    <div class="class1">
+        <nav class="navbar navbar-expand-lg  bg-none text-white">
+            <div class="container-fluid">
+                <span style="font-size: 38px; cursor: pointer; font-family: 'Poppins', sans-serif;">
+
+                    <img src="https://cdn.worldvectorlogo.com/logos/tinder-icon.svg" alt="Logo" width="30" height="60"
+                        class="d-inline-block align-text-top">
+                    <span style="font-weight: 900;"><img style="mix-blend-mode: screen; " src="/Images/tinder_wordmark_registered.png" alt="" class="" width="150" height="40px"></span>
+
+                </span>
+
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div style="font-size: 17px; font-weight: 500;" class="collapse navbar-collapse    px-2"
+                    id="navbarSupportedContent">
+                    <ul style="font-family: 'Poppins', sans-serif;" class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
+                        <li class="nav-item dropdown">
+                            <a id="hi" style="--bs-link-hover-color-rgb: 25, 135, 84;"
+                                class="nav-link dropdown-toggle text-white" href="Products.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark  ">
+                                <li><a class="dropdown-item text-white " href="Premium_features.html"><b>Premium Features </b></a></li>
+                                <li><a class="dropdown-item text-white" href="Subscription.html"><b>Subscription Tiers</b></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-white" href="Tinder_Plus.html">Tinder Plus <sup>R</sup></a></li>
+                                <li><a class="dropdown-item text-white" href="#">Tinder Gold <sup>TM</sup></a></li>
+                                <li><a class="dropdown-item text-white" href="#">Tinder Platinum</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Learn.html">Learn</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Safety
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-white">
+                                <li><a class="dropdown-item" href="#"><b>Communication Guideliness</b></a></li>
+                                <li><a class="dropdown-item" href="#">Safety Tips</a></li>
+                                <li><a class="dropdown-item" href="#">Safety & Policy</a></li>
+                                <li><a class="dropdown-item" href="#">Safety & Reporting </a></li>
+                                <li><a class="dropdown-item" href="#">Security </a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Dowload.html">Dowload</a>
+                        </li>
+
+                    </ul>
+                    <form style="width: 200px;" class="d-flex " role="search">
+                        <select class="form-select btn btn-outline-warning bg-dark  text-white" id="languages"
+                            name="languages">
+                            <option>Language</option>
+                            <option value="af">Afrikaans</option>
+                            <option value="sq">Albanian - shqip</option>
+                            <option value="am">Amharic - አማርኛ</option>
+                            <option value="ar">Arabic - العربية</option>
+                            <option value="an">Aragonese - aragonés</option>
+                            <option value="hy">Armenian - հայերեն</option>
+                            <option value="ast">Asturian - asturianu</option>
+                            <option value="az">Azerbaijani - azərbaycan dili</option>
+                            <option value="eu">Basque - euskara</option>
+                            <option value="be">Belarusian - беларуская</option>
+                            <option value="bn">Bengali - বাংলা</option>
+                            <option value="bs">Bosnian - bosanski</option>
+                            <option value="br">Breton - brezhoneg</option>
+                            <option value="bg">Bulgarian - български</option>
+                            <option value="ca">Catalan - català</option>
+                            <option value="ckb">Central Kurdish - کوردی (دەستنوسی عەرەبی)</option>
+                            <option value="zh">Chinese - 中文</option>
+                            <option value="zh-HK">Chinese (Hong Kong) - 中文（香港）</option>
+                            <option value="zh-CN">Chinese (Simplified) - 中文（简体）</option>
+                            <option value="zh-TW">Chinese (Traditional) - 中文（繁體）</option>
+                            <option value="co">Corsican</option>
+                            <option value="hr">Croatian - hrvatski</option>
+                            <option value="cs">Czech - čeština</option>
+                            <option value="da">Danish - dansk</option>
+                            <option value="nl">Dutch - Nederlands</option>
+                            <option value="en">English</option>
+                            <option value="en-AU">English (Australia)</option>
+                            <option value="en-CA">English (Canada)</option>
+                            <option value="en-IN">English (India)</option>
+                            <option value="en-NZ">English (New Zealand)</option>
+                            <option value="en-ZA">English (South Africa)</option>
+                            <option value="en-GB">English (United Kingdom)</option>
+                            <option value="en-US">English (United States)</option>
+                            <option value="eo">Esperanto - esperanto</option>
+                            <option value="et">Estonian - eesti</option>
+                            <option value="fo">Faroese - føroyskt</option>
+                            <option value="fil">Filipino</option>
+                            <option value="fi">Finnish - suomi</option>
+                            <option value="fr">French - français</option>
+                            <option value="fr-CA">French (Canada) - français (Canada)</option>
+                            <option value="fr-FR">French (France) - français (France)</option>
+                            <option value="fr-CH">French (Switzerland) - français (Suisse)</option>
+                            <option value="gl">Galician - galego</option>
+                            <option value="ka">Georgian - ქართული</option>
+                            <option value="de">German - Deutsch</option>
+                            <option value="de-AT">German (Austria) - Deutsch (Österreich)</option>
+                            <option value="de-DE">German (Germany) - Deutsch (Deutschland)</option>
+                            <option value="de-LI">German (Liechtenstein) - Deutsch (Liechtenstein)</option>
+                            <option value="de-CH">German (Switzerland) - Deutsch (Schweiz)</option>
+                            <option value="el">Greek - Ελληνικά</option>
+                            <option value="gn">Guarani</option>
+                            <option value="gu">Gujarati - ગુજરાતી</option>
+                            <option value="ha">Hausa</option>
+                            <option value="haw">Hawaiian - ʻŌlelo Hawaiʻi</option>
+                            <option value="he">Hebrew - עברית</option>
+                            <option value="hi">Hindi - हिन्दी</option>
+                            <option value="hu">Hungarian - magyar</option>
+                            <option value="is">Icelandic - íslenska</option>
+                            <option value="id">Indonesian - Indonesia</option>
+                            <option value="ia">Interlingua</option>
+                            <option value="ga">Irish - Gaeilge</option>
+                            <option value="it">Italian - italiano</option>
+                            <option value="it-IT">Italian (Italy) - italiano (Italia)</option>
+                            <option value="it-CH">Italian (Switzerland) - italiano (Svizzera)</option>
+                            <option value="ja">Japanese - 日本語</option>
+                            <option value="kn">Kannada - ಕನ್ನಡ</option>
+                            <option value="kk">Kazakh - қазақ тілі</option>
+                            <option value="km">Khmer - ខ្មែរ</option>
+                            <option value="ko">Korean - 한국어</option>
+                            <option value="ku">Kurdish - Kurdî</option>
+                            <option value="ky">Kyrgyz - кыргызча</option>
+                            <option value="lo">Lao - ລາວ</option>
+                            <option value="la">Latin</option>
+                            <option value="lv">Latvian - latviešu</option>
+                            <option value="ln">Lingala - lingála</option>
+                            <option value="lt">Lithuanian - lietuvių</option>
+                            <option value="mk">Macedonian - македонски</option>
+                            <option value="ms">Malay - Bahasa Melayu</option>
+                            <option value="ml">Malayalam - മലയാളം</option>
+                            <option value="mt">Maltese - Malti</option>
+                            <option value="mr">Marathi - मराठी</option>
+                            <option value="mn">Mongolian - монгол</option>
+                            <option value="ne">Nepali - नेपाली</option>
+                            <option value="no">Norwegian - norsk</option>
+                            <option value="nb">Norwegian Bokmål - norsk bokmål</option>
+                            <option value="nn">Norwegian Nynorsk - nynorsk</option>
+                            <option value="oc">Occitan</option>
+                            <option value="or">Oriya - ଓଡ଼ିଆ</option>
+                            <option value="om">Oromo - Oromoo</option>
+                            <option value="ps">Pashto - پښتو</option>
+                            <option value="fa">Persian - فارسی</option>
+                            <option value="pl">Polish - polski</option>
+                            <option value="pt">Portuguese - português</option>
+                            <option value="pt-BR">Portuguese (Brazil) - português (Brasil)</option>
+                            <option value="pt-PT">Portuguese (Portugal) - português (Portugal)</option>
+                            <option value="pa">Punjabi - ਪੰਜਾਬੀ</option>
+                            <option value="qu">Quechua</option>
+                            <option value="ro">Romanian - română</option>
+                            <option value="mo">Romanian (Moldova) - română (Moldova)</option>
+                            <option value="rm">Romansh - rumantsch</option>
+                            <option value="ru">Russian - русский</option>
+                            <option value="gd">Scottish Gaelic</option>
+                            <option value="sr">Serbian - српски</option>
+                            <option value="sh">Serbo-Croatian - Srpskohrvatski</option>
+                            <option value="sn">Shona - chiShona</option>
+                            <option value="sd">Sindhi</option>
+                            <option value="si">Sinhala - සිංහල</option>
+                            <option value="sk">Slovak - slovenčina</option>
+                            <option value="sl">Slovenian - slovenščina</option>
+                            <option value="so">Somali - Soomaali</option>
+                            <option value="st">Southern Sotho</option>
+                            <option value="es">Spanish - español</option>
+                            <option value="es-AR">Spanish (Argentina) - español (Argentina)</option>
+                            <option value="es-419">Spanish (Latin America) - español (Latinoamérica)</option>
+                            <option value="es-MX">Spanish (Mexico) - español (México)</option>
+                            <option value="es-ES">Spanish (Spain) - español (España)</option>
+                            <option value="es-US">Spanish (United States) - español (Estados Unidos)</option>
+                            <option value="su">Sundanese</option>
+                            <option value="sw">Swahili - Kiswahili</option>
+                            <option value="sv">Swedish - svenska</option>
+                            <option value="tg">Tajik - тоҷикӣ</option>
+                            <option value="ta">Tamil - தமிழ்</option>
+                            <option value="tt">Tatar</option>
+                            <option value="te">Telugu - తెలుగు</option>
+                            <option value="th">Thai - ไทย</option>
+                            <option value="ti">Tigrinya - ትግርኛ</option>
+                            <option value="to">Tongan - lea fakatonga</option>
+                            <option value="tr">Turkish - Türkçe</option>
+                            <option value="tk">Turkmen</option>
+                            <option value="tw">Twi</option>
+                            <option value="uk">Ukrainian - українська</option>
+                            <option value="ur">Urdu - اردو</option>
+                            <option value="ug">Uyghur</option>
+                            <option value="uz">Uzbek - o‘zbek</option>
+                            <option value="vi">Vietnamese - Tiếng Việt</option>
+                            <option value="wa">Walloon - wa</option>
+                            <option value="cy">Welsh - Cymraeg</option>
+                            <option value="fy">Western Frisian</option>
+                            <option value="xh">Xhosa</option>
+                            <option value="yi">Yiddish</option>
+                            <option value="yo">Yoruba - Èdè Yorùbá</option>
+                            <option value="zu">Zulu - isiZulu</option>
+                        </select> &nbsp;&nbsp;&nbsp;
+                        <button class="btn btn-outline-warning py-2" type="button" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Login</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                            data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+
+
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <img src="https://cdn.worldvectorlogo.com/logos/tinder-icon.svg" alt=""
+                                            class="img-fluid " width="25px">
+                                        <h1 class="modal-title fs-2 text-dark" id="staticBackdropLabel">Create Account
+                                        </h1>
+                                        <div class="container ">
+                                            <p style="font-family: 'Montserrat', sans-serif;font-size: 15px; font-weight: 900; "
+                                                class="p-2 text-dark ">
+                                                By clicking Log In, you agree to our <strong
+                                                    class="strong">Terms</strong>.Learn how
+                                                we process your data in our <strong class="strong">Privacy
+                                                    Policy</strong> and <br>
+                                                <strong class="strong">Cookie Policy.</strong>
+                                            </p>
+                                            <button type="button" class="btn btn-primary px-5 rounded-pill"> Continue
+                                                with
+                                                Goggle</button> <br>
+                                            <a style="font-size: 14px; margin-top: 4px;" href="#">MORE OPTIONS</a> <br>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <span class="fs-5 fw-bold text-dark">Get the app!</span>
+                                                </div>
+
+                                            </div> <br>
+
+                                            <div class="row">
+                                                <div class="col-sm-2"></div>
+                                                <div style="cursor: pointer;" class="col-sm-4">
+                                                    <img src="https://tinder.com/static/build/d256a5b510a685030be375c63a9010e9.webp"
+                                                        alt="" class="img-fluid" width="120px">
+                                                </div>
+                                                <div style="cursor: pointer;" class="col-sm-4">
+                                                    <img src="https://tinder.com/static/build/03aed264f8539c570e9bc80ba6b60d92.webp"
+                                                        alt="" class="img-fluid" width="170px">
+                                                </div>
+                                                <div class="col-sm-1"></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div style="text-align: center;padding-top: 110px;color: white;" class="container my-5 ">
+            <h1 class=" my-5 p-2"
+                style="font-family:'Poppins', sans-serif ; font-weight: 900;letter-spacing: 1.5px;font-size: 70px;">
+                Start something epic.</h1>
+            <!-- Button trigger modal -->
+            <button id="c_account" type="button" class="btn btn-warning my-5 px-5 py-2 fs-5 fw-bold rounded-pill"
+                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Create Account
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="https://cdn.worldvectorlogo.com/logos/tinder-icon.svg" alt="" class="img-fluid "
+                                width="25px">
+                            <h1 class="modal-title fs-2 text-dark" id="staticBackdropLabel">Create Account
+                            </h1>
+                            <div class="container ">
+                                <p style="font-family: 'Montserrat', sans-serif;font-size: 15px; font-weight: 900; "
+                                    class="p-2 text-dark ">
+                                    By clicking Log In, you agree to our <strong class="strong">Terms</strong>.Learn how
+                                    we process your data in our <strong class="strong">Privacy Policy</strong> and
+                                    <strong class="strong">Cookie Policy.</strong>
+                                </p>
+                                <button type="button" class="btn btn-primary px-5 rounded-pill"> Continue with
+                                    Goggle</button> <br>
+                                <a style="font-size: 14px; margin-top: 4px;" href="#">MORE OPTIONS</a> <br> <br>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <span class="fs-5 fw-bold text-dark">Get the app!</span>
+                                    </div>
+
+                                </div> <br>
+
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div style="cursor: pointer;" class="col-sm-4">
+                                        <img src="https://tinder.com/static/build/d256a5b510a685030be375c63a9010e9.webp"
+                                            alt="" class="img-fluid" width="120px">
+                                    </div>
+                                    <div style="cursor: pointer;" class="col-sm-4">
+                                        <img src="https://tinder.com/static/build/03aed264f8539c570e9bc80ba6b60d92.webp"
+                                            alt="" class="img-fluid" width="170px">
+                                    </div>
+                                    <div class="col-sm-1"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            </button>
         </div>
-        <ul class="items">
-          <li>Chicken springs rolls</li>
-          <li>Chilli Prawns</li>
-          <li>Chicken Manchuria </li>
-          <li>Meatballs</li>
-          <li>Kebab chaat</li>
-          <li>Chicken Majestic</li>
-          <li>Fish and chicken pakora</li>
-          <li>Crispy baked Rangoon</li>
-          <li>Egg 65</li>
-          <li> Delicious Butter chicken</li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <div style="width: 100%;height: 30px;" class="progress ">
-          <div style="width: 100%;" class="progress-bar text-white-50 bg-dark">
-            <span style="font-size: 18px;font-family: 'Montserrat', sans-serif;">NON-VEG</span>
-          </div>
+
+    </div> <br><br>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide container mt-4 " data-bs-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <div class="card-group ">
+                    <div class="card mx-3  ">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black; " class="card-body rounded  ">
+                            <h5 class="card-title">Rebecca <span class="badge bg-primary">New</span></h5>
+                            <hr>
+                            <p class="card-text">He hit me with one the WORST pick-up lines I had ever seen, but being
+                                bored at Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                                perspiciatis voluptatum quo id aperiam dicta, a vel accusamus vero nam? <br> <br>
+                                work, I decided to reply. From there, we never stopped talking, dating each other and
+                                falling
+                                deeper in love.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 59 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                            <h5 class="card-title">Shannon & Julian</h5>
+                            <hr>
+                            <p class="card-text">I was feeling lonely back in my hometown because most of my friends had
+                                started
+                                romantic relationships while I was abroad. We both decided to download Tinder and see
+                                what
+                                happened. <br> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, mollitia!
+
+
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 1 day ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded ">
+                            <h5 class="card-title">Gabriel & Fiance ❤️‍🩹</h5>
+                            <hr>
+                            <p class="card-text">My college roommate and I both would stay up on Tinder, not looking for
+                                anything serious (also not looking for hook-ups though, just entertainment). My now
+                                husband and
+                                I matched on Tinder. <br> <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit necessitatibus illum
+                                recusandae labore.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 23 hours ago</small>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-group">
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                            <h5 class="card-title">Courtney & Miranda </h5>
+                            <hr>
+                            <p class="card-text">Thanks to Tinder, I have found the love of my life and we are to be
+                                married. <br> <br>
+
+                                After going on a few dates and having a few fun nights, I came across Miranda. After
+                                reading her profile, I couldn’t resist swiping right after reading her final sentence …
+                                “Looking for my super babe for life”. After talking for about a week, we went out on our
+                                first date, and I knew there was something special about her!</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 12 days ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                            <h5 class="card-title">Ryan & Lindsey 🖤</h5>
+                            <hr>
+                            <p class="card-text">… just had a bad break-up and created a Tinder account to keep my mind
+                                off the break-up. After about a week of talking, we decided to meet up at a local bar
+                                for drinks … we decided to tie the knot in an 18-person ceremony in New Jersey on 27
+                                June 2020. <br>
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, illum.
+
+
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 1 month ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded ">
+                            <h5 class="card-title">Magdalena & Annie <span class="badge bg-info">New</span></h5>
+                            <hr>
+                            <p class="card-text">I had just gotten out of a relationship, and Annie had just started
+                                dating women, so we were both nervous and treading lightly for a little bit! We both
+                                fell hard and fast, and knew we had found our person fairly quickly. <br> <br>Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Facere impedit minus consectetur
+                                autem, similique a?</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 2 min ago</small>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-group">
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                            <h5 class="card-title">Victoria & Louise ❤️</h5>
+                            <hr>
+                            <p class="card-text">THANK YOU for making it possible for me to meet my soulmate. Five
+                                minutes into our first conversation, my now-wife mentioned how we would have an amazing
+                                wedding. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+                                cupiditate mollitia ratione, ad harum ab ipsam dolorem recusandae placeat possimus.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 4 months ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                            <h5 class="card-title">Lauren <span class="badge bg-warning">New</span></h5>
+                            <hr>
+                            <p class="card-text">For all the single people out there, especially introverted ones like
+                                us: don’t be afraid to travel outside of your comfort zone. Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Earum voluptatum ea doloremque sed perspiciatis! Veniam.
+                                That’s where you’ll make a
+                                genuine connection. Tinder brought us together, and for that, I am forever grateful. ❤
+                                <br>
+
+
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 1 day ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 border">
+
+                        <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded ">
+                            <h5 class="card-title">Gabriel & Fiance</h5>
+                            <hr>
+                            <p class="card-text">My college roommate and I both would stay up on Tinder, not looking for
+                                anything serious (also not looking for hook-ups though, just entertainment). My now
+                                husband and
+                                I matched on Tinder. <br> <br> I didn’t think anything would ever come about from it,
+                                but one day I saw this stunning beauty come across the app. I Super Liked her, paying a
+                                dollar extra for the Super Like!</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 1 year ago</small>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <ul class="items">
-          <li>Chicken biryani</li>
-                    <li> special Chicken biryani</li>
-                    <li>chicken dum biryani</li>
-                    <li>mutton biryani</li>
-                    <li> special mutton biryani</li>
-                    <li>mutton dum biryani</li>
-                    <li>prawns biryani</li>
-                    <li>egg biryani</li>
-                    <li>hyderabadi biryani</li>
-                    <li> Kolkata biryani</li>
-        </ul>
-      </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div class="row">
-      <div class="col-sm-6 my-3">
-        <div style="width: 100%;height: 30px;" class="progress">
-          <div style="width: 100%;" class="progress-bar text-white-50 bg-dark">
-            <span style="font-size: 18px;font-family: 'Montserrat', sans-serif;">VEG</span>
-            
-          </div>
-          
-        </div>
-        <ul class="items">
-          <li>Kerala veg biryani</li>
-                    <li>Mushroom biryani</li>
-                    <li>Veg fried rice </li>
-                    <li>Spicy veg pulao</li>
-                    <li>Tomato biryani</li>
-                    <li>Kaju biryani</li>
-                    <li>paneer biryani</li>
-                    
-                    
-                    <li>handi biryani</li>
-                    <li>veg dum biryani </li>
-                    <li>Coriander leaves biryani</li>
-        </ul>
-      </div>
-      <div class="col-sm-6 my-3">
-        <div style="width: 100%;height: 30px;" class="progress ">
-          <div style="width: 100%;" class="progress-bar text-white-50 bg-dark">
-            <span style="font-size: 18px;font-family: 'Montserrat', sans-serif;">COFFEE</span>
-          </div>
-        </div>
-        <ul class="items">
-          <li>Espresso</li>
-                    <li>Caffé Latte</li>
-                    <li>Cappuccino</li>
-                    <li>Americano</li>
-                    <li>Caffé Mocha</li>
-                    <li>Magic Coffee</li>
-                    <li>decaf Coffee</li>
-                    <li>Caffé Breve</li>
-                    <li>iced Coffee</li>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <h4>Legal</h4>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Cookie Policy</li>
+                    <li>Intellectual Property</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h4>Careers</h4>
+                <ul>
+                    <li>Careers Portal</li>
+                    <li>Tech Blog</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h4>Social</h4>
+                <i class="fa-brands fa-square-facebook"
+                    style="color: #403de6;font-size: 30px; padding:0px 2px;cursor: pointer;"></i>
+                <i class="fa-brands fa-square-twitter"
+                    style="color: #36c0fc;font-size: 30px;padding:0px 2px;cursor: pointer;"></i>
+                <i class="fa-brands fa-square-youtube"
+                    style="color: #ff0000;font-size: 30px;padding:0px 2px;cursor: pointer;"></i>
+                <i class="fa-brands fa-square-instagram"
+                    style="color: rgb(238, 165, 57); font-size: 30px;padding:0px 2px;cursor: pointer;"></i>
 
-                    <li>Java Latte</li>
-        </ul>
-      </div>
-    </div> <br> 
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <span>NOTE : Every Order Takes Atleast 20 Min Of Time...</span>
-      </div>
+            </div>
+            <div class="col-sm-2">
+                <ul>
+                    <li>FAQ</li>
+                    <li>Destinations</li>
+                    <li>Press room</li>
+                    <li>Contact</li>
+                    <li>Promo code</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-sm-2">
+                <span class="fs-5 fw-bold">Get the app!</span>
+            </div>
+            <div style="cursor: pointer;" class="col-sm-2">
+                <img src="https://tinder.com/static/build/d256a5b510a685030be375c63a9010e9.webp" alt=""
+                    class="img-fluid">
+            </div>
+            <div style="cursor: pointer;" class="col-sm-2">
+                <img src="https://tinder.com/static/build/03aed264f8539c570e9bc80ba6b60d92.webp" alt=""
+                    class="img-fluid">
+            </div>
+        </div>
+        <p style="font-size: 13px; color: #505965; font-weight: 400;font-family: poppins;" class="p-2 my-3">All you
+            singles, listen up: if
+            you’re looking to fall in love, want to start dating, ready to start a relationship, or want to keep it
+            casual, you need to be on Tinder. With over 55 billion matches made, it’s the best free dating site to find
+            your next best match. You’ve probably noticed; the dating landscape looks very different today, with most of
+            us choosing to meet people online. With Tinder, the world’s most popular free dating app, you have millions
+            of other singles at your fingertips, and they’re all ready to meet someone like you. Whether you’re straight
+            or part of the LGBTQIA community, Tinder’s here to get the sparks flying. <br><br>There really is something
+            for everyone on Tinder. Looking for a relationship? You’ve got it. Want to make friends online? Say no more.
+            Just started uni and want to make the most of your experience? Tinder U’s got you covered. Tinder isn’t your
+            average dating site; it’s the most diverse dating app, where adults of all backgrounds and experiences are
+            invited to make connections, memories and everything in between.
+
+        </p>
+        <hr>
+
+
+        <div class="row">
+            <div class="col-sm-8">
+                <nav aria-label="breadcrumb">
+                    <ol style="font-size: 14px; font-weight: 600;" class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+                        <li class="breadcrumb-item active" aria-current="page">Saftey Tips</li>
+                        <li class="breadcrumb-item active" aria-current="page">Terms</li>
+                        <li class="breadcrumb-item active" aria-current="page">Cookie Policy</li>
+                        <li class="breadcrumb-item active" aria-current="page">Privacy Setting</li>
+
+                    </ol>
+
+
+                </nav>
+            </div>
+            <div class="col-sm-4">
+                <span style="font-size: 14px;float: right;color: #21262e;font-family: poppins;">
+                    &copy; 2023 Match Group, Avinash, All Rights Reserved.
+                </span>
+            </div>
+        </div>
+
     </div>
 
 
-  </div>
-  <div class="container-fluid bg-dark text-white p-4" >
-    <span style="text-align: center;">Copyright © 2023 -Designed by Avinash Bandari</span>
-</div>
+
+
+    <!-- <div class="card-group">
+            <div class="card mx-2">
+
+                <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                    <h5 class="card-title">Rebecca <span class="badge bg-primary">New</span></h5>
+                    <hr>
+                    <p class="card-text">He hit me with one the WORST pick-up lines I had ever seen, but being bored at
+                        work, I decided to reply. From there, we never stopped talking, dating each other and falling
+                        deeper in love.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 59 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card mx-2 border">
+
+                <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded">
+                    <h5 class="card-title">Shannon & Julian</h5>
+                    <hr>
+                    <p class="card-text">I was feeling lonely back in my hometown because most of my friends had started
+                        romantic relationships while I was abroad. We both decided to download Tinder and see what
+                        happened. <br>
+
+                        
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 1 day ago</small></p>
+                </div>
+            </div>
+            <div class="card mx-2 border">
+
+                <div style="box-shadow: 0px 0px 4px 1px black;" class="card-body rounded ">
+                    <h5 class="card-title">Gabriel & Fiance</h5>
+                    <hr>
+                    <p class="card-text">My college roommate and I both would stay up on Tinder, not looking for
+                        anything serious (also not looking for hook-ups though, just entertainment). My now husband and
+                        I matched on Tinder.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 23 hours ago</small></p>
+                </div>
+            </div>
+            
+        </div> -->
 
 
 </body>
